@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    border:1px solidb black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar li{
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+a:hover{
+    color: blueviolet;
+}
+.container{
+    display:flex;
+
+}
+.container>div{
+    margin:10px;
+    
+}

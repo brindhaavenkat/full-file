@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sofiya;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(pexels-houzlook-com-3797991.jpg);
+   
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 100%;
+ 
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+ 
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.navbar ul li a:hover {
+    color: #009688
+}
+
+
+.content {
+
+    position: absolute;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0px 20%;
+    top: 50%;
+    text-align: center;
+    color: black;
+
+}
+
+.content p {
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 40px;
+
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.btn {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid pink;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.btn:hover {
+    background-color: aquamarine;
+}

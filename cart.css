@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    border:1px solid black;
+   
+    
+  
+ 
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar li{
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+a:hover{
+    color: blueviolet;
+}
+.container{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        flex-wrap: wrap;
+    
+        margin: 10%  auto 0px auto;
+  
+}
+.sonata {
+
+    text-align: center;
+
+ 
+}
+.sonata {
+  width: 33%;
+  padding:px;
+}
+.sonata img
+{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 5px solid blueviolet;
+    background: transparent;
+    cursor:pointer
+}
+
+button{
+    background-color: brown;
+    text-align: center;
+}
